@@ -1,9 +1,11 @@
 * Pesquisa Operacional
 
   Lista de vídeos para a disciplina: https://www.youtube.com/playlist?list=PLRDuHd2Ia_btXC7J2OmyLQuGsKxpYjaWy
+
   Lista de vídeos para o conteúdo de Heurísticas e Meta-heurísticas,
   feitos pelo professor Bruno Prata, do Departamento de Engenharia de
   Produção da Universidade Federal do Ceará: https://www.youtube.com/playlist?list=PLu8hAanCQCJrVubIw9c5RAQXyWAn95qEe
+
   Link para notas de aula: https://github.com/luiz-classrooms/mc-lecture-notes
 
 ** Cronograma
