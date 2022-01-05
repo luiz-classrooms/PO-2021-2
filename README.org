@@ -1,53 +1,56 @@
 * Pesquisa Operacional
 
   Lista de vídeos para a disciplina: https://www.youtube.com/playlist?list=PLRDuHd2Ia_btXC7J2OmyLQuGsKxpYjaWy
+  Lista de vídeos para o conteúdo de Heurísticas e Meta-heurísticas,
+  feitos pelo professor Bruno Prata, do Departamento de Engenharia de
+  Produção da Universidade Federal do Ceará: https://www.youtube.com/playlist?list=PLu8hAanCQCJrVubIw9c5RAQXyWAn95qEe
   Link para notas de aula: https://github.com/luiz-classrooms/mc-lecture-notes
 
 ** Cronograma
 
-   | Data             | Aula | Descrição                                               | Status   |
-   |------------------+------+---------------------------------------------------------+----------|
-   | [2021-09-30 Thu] |    1 | Introdução e Apresentação da Disciplina                 | Síncrona |
-   | [2021-10-01 Fri] |    2 | Álgebra Linear - revisão                                | Gravada  |
-   | [2021-10-02 sáb] |    3 | Programação Linear - introdução aos modelos matemáticos | Gravada  |
-   | [2021-10-07 Thu] |    4 | Live                                                    | Síncrona |
-   | [2021-10-08 Fri] |    5 | Programação Linear - Modelos Matemáticos                | Gravada  |
-   | [2021-10-14 Thu] |    6 | Live                                                    | Síncrona |
-   | [2021-10-15 Fri] |      | Feriado - Dia do Professor                              |          |
-   | [2021-10-16 sáb] |    7 | Programação Linear - definições                         | Gravada  |
-   | [2021-10-21 Thu] |    8 | Live                                                    | Síncrona |
-   | [2021-10-22 Fri] |    9 | Programação Linear - forma padrão                       | Gravada  |
-   | [2021-10-28 Thu] |   10 | Live                                                    | Síncrona |
-   | [2021-10-29 Fri] |   11 | Programação Linear - método simplex                     | Gravada  |
-   | [2021-11-04 Thu] |   12 | Live                                                    | Síncrona |
-   | [2021-11-05 Fri] |   13 | Programação Linear - método simplex                     | Gravada  |
-   | [2021-11-11 Thu] |   14 | Live                                                    | Síncrona |
-   | [2021-11-12 Fri] |   15 | Programação Inteira - cortes de Gomory                  | Gravada  |
-   | [2021-11-18 Thu] |   16 | Live                                                    | Síncrona |
-   | [2021-11-19 Fri] |   17 | Programação Inteira - relaxação lagrangeana e dualidade | Gravada  |
-   | [2021-11-25 Thu] |   18 | Live                                                    | Síncrona |
-   | [2021-11-26 Fri] |   19 | Problemas de Fluxo - definições e propriedades          | Gravada  |
-   | [2021-12-02 Thu] |      | Encontros Universitários                                |          |
-   | [2021-12-03 Fri] |      | Encontros Universitários                                |          |
-   | [2021-12-09 Thu] |   20 | Live                                                    | Síncrona |
-   | [2021-12-10 Fri] |   21 | Problemas de Fluxo - Ford-Fulkerson                     | Gravada  |
-   | [2021-12-16 Thu] |   22 | Live                                                    | Síncrona |
-   | [2021-12-17 Fri] |   23 | Problemas de Fluxo - Ford-Fulkerson                     | Gravada  |
-   | [2021-12-23 Thu] |      | Recesso                                                 |          |
-   | [2021-12-24 Fri] |      | Recesso                                                 |          |
-   | [2021-12-30 Thu] |      | Recesso                                                 |          |
-   | [2021-12-31 Fri] |      | Recesso                                                 |          |
-   | [2022-01-06 Thu] |      | Recesso                                                 |          |
-   | [2022-01-07 Fri] |      | Recesso                                                 |          |
-   | [2022-01-13 Thu] |   24 | Live                                                    | Síncrona |
-   | [2022-01-14 Fri] |   25 | Uso de Pacotes de Otimização                            | Gravada  |
-   | [2022-01-20 Thu] |   26 | Live                                                    | Síncrona |
-   | [2022-01-21 Fri] |   27 | Uso de Pacotes de Otimização                            | Gravada  |
-   | [2022-01-27 Thu] |   28 | Live                                                    | Síncrona |
-   | [2022-01-28 Fri] |   29 | Heurísticas - introdução e definições                   |          |
-   | [2022-02-03 Thu] |   30 | Live                                                    | Síncrona |
-   | [2022-02-04 Fri] |   31 | Heurísticas - técnicas de busca local                   |          |
-   | [2022-02-10 Thu] |   32 | Live                                                    | Síncrona |
+   | Data             | Aula | Descrição                                               | Status        |
+   |------------------+------+---------------------------------------------------------+---------------|
+   | [2021-09-30 Thu] |    1 | Introdução e Apresentação da Disciplina                 | Síncrona      |
+   | [2021-10-01 Fri] |    2 | Álgebra Linear - revisão                                | Gravada       |
+   | [2021-10-02 sáb] |    3 | Programação Linear - introdução aos modelos matemáticos | Gravada       |
+   | [2021-10-07 Thu] |    4 | Live                                                    | Síncrona      |
+   | [2021-10-08 Fri] |    5 | Programação Linear - Modelos Matemáticos                | Gravada       |
+   | [2021-10-14 Thu] |    6 | Live                                                    | Síncrona      |
+   | [2021-10-15 Fri] |      | Feriado - Dia do Professor                              |               |
+   | [2021-10-16 sáb] |    7 | Programação Linear - definições                         | Gravada       |
+   | [2021-10-21 Thu] |    8 | Live                                                    | Síncrona      |
+   | [2021-10-22 Fri] |    9 | Programação Linear - forma padrão                       | Gravada       |
+   | [2021-10-28 Thu] |   10 | Live                                                    | Síncrona      |
+   | [2021-10-29 Fri] |   11 | Programação Linear - método simplex                     | Gravada       |
+   | [2021-11-04 Thu] |   12 | Live                                                    | Síncrona      |
+   | [2021-11-05 Fri] |   13 | Programação Linear - método simplex                     | Gravada       |
+   | [2021-11-11 Thu] |   14 | Live                                                    | Síncrona      |
+   | [2021-11-12 Fri] |   15 | Programação Inteira - cortes de Gomory                  | Gravada       |
+   | [2021-11-18 Thu] |   16 | Live                                                    | Síncrona      |
+   | [2021-11-19 Fri] |   17 | Programação Inteira - relaxação lagrangeana e dualidade | Gravada       |
+   | [2021-11-25 Thu] |   18 | Live                                                    | Síncrona      |
+   | [2021-11-26 Fri] |   19 | Problemas de Fluxo - definições e propriedades          | Gravada       |
+   | [2021-12-02 Thu] |      | Encontros Universitários                                |               |
+   | [2021-12-03 Fri] |      | Encontros Universitários                                |               |
+   | [2021-12-09 Thu] |   20 | Live                                                    | Síncrona      |
+   | [2021-12-10 Fri] |   21 | Problemas de Fluxo - Ford-Fulkerson                     | Gravada       |
+   | [2021-12-16 Thu] |   22 | Live                                                    | Síncrona      |
+   | [2021-12-17 Fri] |   23 | Problemas de Fluxo - Ford-Fulkerson                     | Gravada       |
+   | [2021-12-23 Thu] |      | Recesso                                                 |               |
+   | [2021-12-24 Fri] |      | Recesso                                                 |               |
+   | [2021-12-30 Thu] |      | Recesso                                                 |               |
+   | [2021-12-31 Fri] |      | Recesso                                                 |               |
+   | [2022-01-06 Thu] |      | Recesso                                                 |               |
+   | [2022-01-07 Fri] |      | Recesso                                                 |               |
+   | [2022-01-13 Thu] |   24 | Live                                                    | Síncrona      |
+   | [2022-01-14 Fri] |   25 | Uso de Pacotes de Otimização                            | Gravada       |
+   | [2022-01-20 Thu] |   26 | Live                                                    | Síncrona      |
+   | [2022-01-21 Fri] |   27 | Uso de Pacotes de Otimização                            | Gravada       |
+   | [2022-01-27 Thu] |   28 | Live                                                    | Síncrona      |
+   | [2022-01-28 Fri] |   29 | Heurísticas - introdução e definições                   | Fonte externa |
+   | [2022-02-03 Thu] |   30 | Live                                                    | Síncrona      |
+   | [2022-02-04 Fri] |   31 | Heurísticas - técnicas de busca local                   | Fonte externa |
+   | [2022-02-10 Thu] |   32 | Live                                                    | Síncrona      |
 
 ** Entregas
 
